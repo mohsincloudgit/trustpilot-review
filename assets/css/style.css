@@ -1,3 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p,
+li,
+dd,
+dt,
+ul,
+ol,
+pre,
+code,
+q {
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+p {
+    margin: 0px !important;
+}
+
+section {
+    padding: 20px 0;
+}
+
+
 .main-header {
     background-color: rgba(28, 28, 28, 1);
     padding: 10px 0;
@@ -51,11 +81,263 @@
     color: #fff;
 }
 
-.header-menu-btn a {
+.main-menu-btn a {
     color: #fff;
+    background: #a6c0f0;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px 15px;
 }
+
+
 
 .header-lists {
     display: flex;
     justify-content: start;
+}
+
+/* main sec */
+.main-sec-left img {
+    width: 150px;
+}
+
+.main-sec-review {
+    display: flex;
+    align-items: center;
+}
+
+.main-sec {
+    display: flex;
+    padding: 30px 0;
+    /* align-items: center; */
+}
+
+.main-sec-right span {
+    border: 1px solid #1c1c1c;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 10px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.main-sec-right span i {
+    color: #0e7946;
+}
+
+.main-sec-right h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.48px;
+    margin: 0px;
+    color: #1C1C1C;
+}
+
+.main-sec-review h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    border-bottom: 1px solid #1C1C1C;
+    color: #1C1C1C;
+
+}
+
+.main-sec-review h3 {
+    margin: 0px;
+}
+
+.main-sec-review dot {
+    align-self: center;
+    padding: 0 10px;
+}
+
+.main-sec-review img {
+    width: 100%;
+    height: 50%;
+    place-self: center;
+    padding: 0 10px;
+}
+
+.main-sec-link a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.176px;
+    color: #205CD4;
+    text-decoration: none;
+}
+
+.main-sec-btn {
+    padding: 10px 0;
+}
+
+.main-sec-btn-1 {
+    background: #205CD4;
+    border-radius: 9999px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-sec-btn-2 {
+    background: transparent;
+    border-radius: 9999px;
+    border: 1px solid rgba(32, 92, 212, 1);
+    padding: 10px;
+    color: rgba(32, 92, 212, 1);
+    text-decoration: none;
+}
+
+.main-sticky-left h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.main-sticky-left span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-sticky-left p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.progress {
+    height: .6rem !important;
+}
+
+.progress-bar {
+    background-color: #00b67a !important;
+}
+
+.main-sticky-right-1 span {
+    font-size: 12px;
+}
+
+.main-sticky-sidebar {
+    padding: 10px;
+    border: .95px solid var(--CDS-color-semantic-border-default);
+    padding: 20px;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, .14);
+    border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-sticky-left {
+    display: grid;
+}
+
+.sidebar-bottom p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-sticky-sidebar {
+    margin: 20px 0;
+}
+
+.sidebar-bottom {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.sidebar-bottom-last {
+    justify-content: center;
+    display: flex;
+}
+
+.sidebar-bottom-last a {
+    text-decoration: none;
+}
+
+.main-sec-features {
+    display: flex;
+    align-items: center;
+    background: #FCFBF3;
+    border: 1px solid #E5E5DD;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.main-features-bottom {
+    align-items: center;
+    display: flex;
+}
+
+.main-features-bottom h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.8125px;
+    line-height: 29px;
+    letter-spacing: -0.264px;
+    color: #1C1C1C;
+}
+
+.features-bottom-img {
+    padding: 0 10px;
+}
+
+.stars img {
+    padding: 2px;
+    background: #00b67a;
+}
+
+.review-sname span {
+    padding: 10px;
+    background: rgba(209, 249, 234, 1);
+    border-radius: 40px;
+    font-size: 22px;
+    margin: 3px;
+}
+
+.review-sname {
+    align-content: center;
+}
+
+.main-review-card {
+    padding: 30px;
+}
+
+
+.features-review {
+    display: flex;
+}
+
+.review-name p {
+    font-size: 12px;
+}
+
+.review-text p {
+    padding: 5px 0;
+}
+
+.review-name h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.company-info {
+    padding: 20px 0;
+}
+
+.company-info-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.company-info-right li {
+    padding-bottom: 6px;
 }
